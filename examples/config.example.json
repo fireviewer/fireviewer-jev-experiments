@@ -1,0 +1,11 @@
+{
+  "aws_cli": "aws",
+  "aws_profile": "YOUR_LAB_PROFILE",
+  "aws_region": "eu-west-3",
+  "artifact_bucket": "YOUR_PRIVATE_ARTIFACT_BUCKET",
+  "ssh_config": ".local/ssh.config",
+  "ssh_host": "fireviewer-typesafe-lab",
+  "remote_dashboard": "/opt/fireviewer-lab/fireviewer-jev-experiments/jev-integration/dashboard/dist/daily/",
+  "endpoint_receipt": ".local/endpoint-receipt.json",
+  "stop_at": "REQUIRED_FUTURE_ISO8601_TIMESTAMP"
+}

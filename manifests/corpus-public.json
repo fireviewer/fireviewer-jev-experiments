@@ -1,0 +1,470 @@
+{
+  "schema": "fv-public-corpus-receipt-1",
+  "original_corpus_sha256": "a99c532069c2d2f7a357da24faac31c27a9c60d5d34b0fc857757a94b72eb274",
+  "raw_assets_included": false,
+  "no_daily_source_cap": true,
+  "days": [
+    {
+      "date": "2025-08-05",
+      "source_counts": {
+        "ground_visual": 15,
+        "official_reports": 7
+      },
+      "sources": [
+        {
+          "id": "aude-cp-01",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33856/233487/file/CP%201%20-%20Feu%20Ribaute%205%20ao%C3%BBt%20.pdf",
+          "sha256": "550e948120dd6268fa43ceb90497fd68adf990dd83ccc46593e9417941154985",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-02",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33857/233492/file/CP%202%20-%205%20aout%2018h30%20.pdf",
+          "sha256": "186896613aa4f5642162d4827a636f0c5754520bdf50c29aafd7f3b48208460e",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-03",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33858/233497/file/CP%203%20-%205%20ao%C3%BBt%20%C3%A0%2019h15.pdf",
+          "sha256": "271ccda2f7785cfb6223eda931d65112c7f19098c1f27827a436c6d6d2dc4922",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-04",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33859/233502/file/CP%204%20-%205%20ao%C3%BBt%2020h30.pdf",
+          "sha256": "1f5072e1dcaa8700c35be207bbc328ecd39322dbb3f95b876d186330e5f6e87f",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-05",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33860/233507/file/CP%205%20-%205%20ao%C3%BBt%20%C3%A0%2022h%20.pdf",
+          "sha256": "ac17de03e53f9cc0179a339701b6f2a3ed851603b0fda62052882ce53d38348a",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-06",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33861/233512/file/CP%206%20-%205%20ao%C3%BBt%20%C3%A0%2023h%20.pdf",
+          "sha256": "1759344573e78332e42cb509ffdb336b15c55c762a48fe2036272127e9819b76",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-07",
+          "local_date": "2025-08-05",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33862/233517/file/CP%207%20-%205%20ao%C3%BBt%20%C3%A0%2023h45%20.pdf",
+          "sha256": "bac5942b7246130067a32f44444f74201b0b25f74f3da114ecee246e6e84f171",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "field-candidate-12314d0c914305a57ac2",
+          "local_date": "2025-08-05",
+          "date_status": "same_day_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "ef1456a1576c6ae9aecfce680b676616ad7465e47b62fdde6060f45e74ffa843",
+          "source_url": "https://www.sudouest.fr/faits-divers/incendies/video-un-incendie-se-declare-dans-l-aude-attise-par-une-violente-tramontane-25480412.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-e6c0eab67bed532a13d5",
+          "local_date": "2025-08-05",
+          "date_status": "same_day_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "47cb2bf860556601f270faf21e8cdd09bb810ea1a30a45eb827e2fd37d6ab265",
+          "source_url": "https://www.sudouest.fr/faits-divers/incendies/video-un-incendie-se-declare-dans-l-aude-attise-par-une-violente-tramontane-25480412.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-b277e99b20f423d12e24",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "bdc942ee84fe30f7b2cf33f84b9c62e36e64fd4ec16dffdd47d4d12617b3ce1e",
+          "source_url": "https://www.tf1info.fr/environnement-ecologie/en-images-incendie-ribaute-narbonne-l-aude-frappee-par-le-plus-gros-feu-de-l-ete-2025-2387168.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Sécurité civile"
+        },
+        {
+          "id": "field-candidate-ba9f3cd5043c04ba162b",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "7222df0c3d1ba8177c370bb074563d65daff297402b72d3d380a77bf344e25f8",
+          "source_url": "https://www.tf1info.fr/environnement-ecologie/en-images-incendie-ribaute-narbonne-l-aude-frappee-par-le-plus-gros-feu-de-l-ete-2025-2387168.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-51eedf32fa648b7e5f4e",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "3a081cc5e5d0c784ccbd725456c17431090bff4e46c2905f5db8e1b5d7b7f43e",
+          "source_url": "https://www.tf1info.fr/environnement-ecologie/en-images-incendie-ribaute-narbonne-l-aude-frappee-par-le-plus-gros-feu-de-l-ete-2025-2387168.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-60b0b9e8e4f66ad21da4",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "b117be241c5ba95242469944948f15896752bad000f77c4f24153fd2f7b95d34",
+          "source_url": "https://www.tf1info.fr/environnement-ecologie/en-images-incendie-ribaute-narbonne-l-aude-frappee-par-le-plus-gros-feu-de-l-ete-2025-2387168.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-94ac8e8c221841f5b577",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "5b6e576a821e3176cc86288488f2582fc0ea2d30d1720f5e4accfb1b9cbd11ce",
+          "source_url": "https://www.tf1info.fr/environnement-ecologie/en-images-incendie-ribaute-narbonne-l-aude-frappee-par-le-plus-gros-feu-de-l-ete-2025-2387168.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Idriss Bigou-Gilles / AFP"
+        },
+        {
+          "id": "field-candidate-ef7df448480860ca6b67",
+          "local_date": "2025-08-05",
+          "date_status": "dated_image_alt",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "6efc53584339c547a03a4639cf20faa216bae66a0c7341bedaea3c3e5c1f7778",
+          "source_url": "https://fr.euronews.com/my-europe/2025/08/07/aude-images-apocalyptiques-du-plus-grand-incendie-en-france-depuis-des-decennies",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "AP / Euronews"
+        },
+        {
+          "id": "field-candidate-401389ae05ea06d1f186",
+          "local_date": "2025-08-05",
+          "date_status": "caption_weekday_and_incident_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "f4023266a712bd917da914a35bb76c77d4d8953e2d8eb0d4f78db9ea1c7a524e",
+          "source_url": "https://www.euronews.com/2025/08/07/unprecedented-wildfire-in-southern-france-driven-by-drought-and-climate-change-officials-s",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Richard Capoulade / UGC via AP"
+        },
+        {
+          "id": "field-candidate-2e2e8b6f3825b889da3b",
+          "local_date": "2025-08-05",
+          "date_status": "same_day_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "ed6eac7dd517e5876473bfb3f3db3663832fc10f3045a33a9b8db45ac68b97d1",
+          "source_url": "https://www.centrepresseaveyron.fr/2025/08/05/video-incendie-incontrolable-dans-laude-deja-1-000-hectares-parcourus-la-tramontane-aggrave-la-propagation-les-flammes-proches-des-communes-12861674.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Météo Languedoc"
+        },
+        {
+          "id": "field-candidate-0ea3e17f451d8e5e0631",
+          "local_date": "2025-08-05",
+          "date_status": "same_day_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "8fdda7110d150ddabbd2e6570aeb317201dd331d89225f646abf5d6b7090e740",
+          "source_url": "https://www.midilibre.fr/2025/08/05/incendie-dans-laude-un-drame-se-joue-dans-notre-village-les-habitants-regardent-impuissants-le-feu-se-rapprocher-de-leurs-maisons-12861751.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "MAXPPP / L’Indépendant"
+        },
+        {
+          "id": "field-candidate-33d42a8444f51d323ee8",
+          "local_date": "2025-08-05",
+          "date_status": "live_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "69dd0cf33412b828202184023b2ae5710837d0408e74dc302a29af6e6dd1da71",
+          "source_url": "https://www.lindependant.fr/2025/08/05/direct-incendie-dans-laude-deja-1000-hectares-parcourus-dans-les-corbieres-et-750-pompiers-mobilises-12861695.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Christophe Parra / L’Indépendant"
+        },
+        {
+          "id": "field-candidate-9a3dca73607f1283f708",
+          "local_date": "2025-08-05",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "dcd84dacb7d705bebb45189afd442bc80d37f12701e2c0b7a13f850d0100f1c0",
+          "source_url": "https://www.lindependant.fr/2025/08/05/direct-incendie-dans-laude-deja-1000-hectares-parcourus-dans-les-corbieres-et-750-pompiers-mobilises-12861695.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Gaëlle Guéant"
+        },
+        {
+          "id": "field-candidate-f12e3ce208b9735eca64",
+          "local_date": "2025-08-05",
+          "date_status": "live_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "1a94014f19876a2462a89ee58960c792014cfb14bb458738c3b8d1edeb126315",
+          "source_url": "https://www.lindependant.fr/2025/08/05/direct-incendie-dans-laude-deja-1000-hectares-parcourus-dans-les-corbieres-et-750-pompiers-mobilises-12861695.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Nathalie Amen Vals / L’Indépendant"
+        },
+        {
+          "id": "field-candidate-3df762edc48306125334",
+          "local_date": "2025-08-05",
+          "date_status": "live_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "5b91068d155b674e879bb781ce10af31ca34cfe6c2fb34302a97e2db87551b55",
+          "source_url": "https://www.lindependant.fr/2025/08/05/direct-incendie-dans-laude-deja-1000-hectares-parcourus-dans-les-corbieres-et-750-pompiers-mobilises-12861695.php",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Nathalie Amen Vals / L’Indépendant"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-06",
+      "source_counts": {
+        "ground_visual": 7,
+        "official_reports": 7
+      },
+      "sources": [
+        {
+          "id": "aude-cp-08",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33863/233522/file/CP%208%20-%206%20ao%C3%BBt%20%C3%A0%201h30%20.pdf",
+          "sha256": "fb8a056bcd47c7aa6584a71b53e15d7fa4cf0ef7200d38ece4ca9351ad7328c5",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-09",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33864/233527/file/CP%209%20-%206%20ao%C3%BBt%20%C3%A0%205h30%20.pdf",
+          "sha256": "d7dcc2f679ecb6312cd68abe6421c24a0c99dabb9e9843f194501b438196105d",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-10",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33865/233532/file/CP%2010%20-%206%20ao%C3%BBt%20%C3%A0%207h30.pdf",
+          "sha256": "349adf86408707d3b2ed0b6f1797c0cc8ca244de90a44ad5677cd807499d8024",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-11",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33866/233537/file/CP%2011%20-%206%20ao%C3%BBt%20%C3%A0%209h.pdf",
+          "sha256": "a455d37183f06fccb3b98840ee200ff9107530d59ee896308ee09e33bfd2d901",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-12",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33867/233542/file/CP%2012%20-%206%20ao%C3%BBt%20%C3%A0%2014h.odt.pdf",
+          "sha256": "b8c8dbfc9c214594bbd243357fbb1e9a7fbf83c59be7fcf1e3a9c04b2dac07cb",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-13",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33868/233547/file/CP%2013%20-%206%20ao%C3%BBt%20%C3%A0%2015h30.pdf",
+          "sha256": "cf48bc55bbcf44e83de60d9c229ce5e82c268e438afe64382cc3db6e91264777",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-14",
+          "local_date": "2025-08-06",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33869/233552/file/CP%2014%20-%206%20ao%C3%BBt%20%C3%A0%2019h.pdf",
+          "sha256": "0df99ae4f14265fe8a0154d116463bdc8e0344fa407427b452584b562939a32a",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "field-candidate-5f1bcd4792dee90851b7",
+          "local_date": "2025-08-06",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "2d78c6eb171e4998aa193ac870f260d011931608e212ecae79446a7903526f6d",
+          "source_url": "https://www.ici.fr/occitanie/aude-11/temoignages-ultra-angoissant-flammes-de-15-metres-l-incendie-de-l-aude-raconte-par-les-habitants-et-vacanciers-8595923",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Lionel Bonaventure / AFP"
+        },
+        {
+          "id": "field-candidate-88df9166b58003d86f13",
+          "local_date": "2025-08-06",
+          "date_status": "dated_image_alt",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "aab17d13ecc72114d29c208731e14e1122730a8fd2b05e5a17a81f622a47eb4d",
+          "source_url": "https://fr.euronews.com/video/2025/08/07/france-le-plus-grand-incendie-depuis-des-decennies-brule-16-000-hectares-dans-laude",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "AP / Euronews"
+        },
+        {
+          "id": "field-candidate-7b7b2c1d03c9a3b2bbfd",
+          "local_date": "2025-08-06",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "39a070251f620bb7b02f8d6ebf1164f0990a638f5a98c5dd4d8e6659f8611a78",
+          "source_url": "https://www.huffingtonpost.es/planeta/el-megaincendio-francia-peor-76nos-avanza-ritmo-ralentizadobr.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Philippe Magoni / EPA / EFE"
+        },
+        {
+          "id": "field-candidate-5b3415bf2ae6f36ae11c",
+          "local_date": "2025-08-06",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "8c6b88fb366180313385e60723fe7355a2173dd77a493ae34f662a70bbec88b8",
+          "source_url": "https://www.huffingtonpost.es/global/el-mayor-incendio-verano-francia-obliga-cerrar-autopista-frontera-espanola-jonquera-hay-muerto-nueve-heridos.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Manon Cruz / Reuters"
+        },
+        {
+          "id": "field-candidate-c7608ac7e39132110523",
+          "local_date": "2025-08-06",
+          "date_status": "dated_caption",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "b228dcbe8e48d95a0e3bd4359cabab6089b56224d8590ab2a6ab343b7789a0bc",
+          "source_url": "https://www.lemonde.fr/en/environment/article/2025/08/07/wildfires-blaze-in-southern-france-it-looked-like-the-apocalypse_6744148_114.html",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Saboor Abdul / Reuters"
+        },
+        {
+          "id": "euronews-nocomment-20250807-review-frame-1",
+          "sha256": "6ac11d11638ff33c1397f89c731722bf2202a272f1b6d1393b83f070e1cda580",
+          "source_url": "https://fr.euronews.com/video/2025/08/07/france-le-plus-grand-incendie-depuis-des-decennies-brule-16-000-hectares-dans-laude",
+          "pipeline_branch": "ground_visual",
+          "parent_video_id": "euronews-nocomment-20250807",
+          "independence_group": "euronews-nocomment-20250807",
+          "local_date": "2025-08-06",
+          "date_status": "video_on_screen_date",
+          "rights": "copyright_retained_private_evaluation_only"
+        },
+        {
+          "id": "euronews-nocomment-20250807-review-frame-2",
+          "sha256": "8e11b9b1379e28f46a023e8e52f9a246d9c864f1c26a6c479a8e21caf9f4a796",
+          "source_url": "https://fr.euronews.com/video/2025/08/07/france-le-plus-grand-incendie-depuis-des-decennies-brule-16-000-hectares-dans-laude",
+          "pipeline_branch": "ground_visual",
+          "parent_video_id": "euronews-nocomment-20250807",
+          "independence_group": "euronews-nocomment-20250807",
+          "local_date": "2025-08-06",
+          "date_status": "video_on_screen_date",
+          "rights": "copyright_retained_private_evaluation_only"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-07",
+      "source_counts": {
+        "ground_visual": 3,
+        "official_reports": 3
+      },
+      "sources": [
+        {
+          "id": "aude-cp-15",
+          "local_date": "2025-08-07",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33870/233557/file/CP%2015%20-%207%20ao%C3%BBt%20%C3%A0%208h.pdf",
+          "sha256": "49e8ebf0bb7588a7c2aa9702f03387077f8fd5884479a0f32a924e360e71398f",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-16",
+          "local_date": "2025-08-07",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33871/233562/file/CP%2016%20-%207%20ao%C3%BBt%20%C3%A0%2012h.pdf",
+          "sha256": "3d8c9cee2ecc03103e98fa53c7909ffc82c4a42f0550e76f4768c8589766b652",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-17",
+          "local_date": "2025-08-07",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33878/233619/file/CP%2017%2007082025%2020h.pdf",
+          "sha256": "cd27953d5e19157db30b76ca83c5ba5d6b1b16ab9c201477f7769707908ce6ce",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "field-candidate-79fb81216f97fd3d4b97",
+          "local_date": "2025-08-07",
+          "date_status": "on_scene_report_context",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "c7da3cf4e8239ab391c010fa18059a07715e31959683a4dd9fe57815a4c159f3",
+          "source_url": "https://www.ledauphine.com/faits-divers-justice/2025/08/07/au-coeur-du-grand-feu-des-corbieres-avec-les-sapeurs-pompiers",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Denis Masliah / Le Dauphiné"
+        },
+        {
+          "id": "field-candidate-78762427f7db71d0deaa",
+          "local_date": "2025-08-07",
+          "date_status": "dated_image_alt",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "9f061f52f551d219ab3545a7e35eb62a25c22c910f6e6eacb8743f0fc2eddac5",
+          "source_url": "https://www.euronews.com/2025/08/08/france-on-alert-after-containing-worst-wildfire-in-decades-amid-soaring-heat",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Sécurité civile via AP"
+        },
+        {
+          "id": "euronews-nocomment-20250807-review-frame-3",
+          "sha256": "25d8f47e2bfce2aae04ff4cc1eb91502ba42c4ee5b1c7749b923837f97a3293b",
+          "source_url": "https://fr.euronews.com/video/2025/08/07/france-le-plus-grand-incendie-depuis-des-decennies-brule-16-000-hectares-dans-laude",
+          "pipeline_branch": "ground_visual",
+          "parent_video_id": "euronews-nocomment-20250807",
+          "independence_group": "euronews-nocomment-20250807",
+          "local_date": "2025-08-07",
+          "date_status": "video_on_screen_date",
+          "rights": "copyright_retained_private_evaluation_only"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-08",
+      "source_counts": {
+        "ground_visual": 1,
+        "official_reports": 3
+      },
+      "sources": [
+        {
+          "id": "aude-cp-19",
+          "local_date": "2025-08-08",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33889/233696/file/CP%2019%20-%2008%20ao%C3%BBt%20%C3%A0%209h.pdf",
+          "sha256": "fb830143a1af8292af50fb6b9cce390717a8d27e3d25d3738cafd11efe90ec9c",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-20",
+          "local_date": "2025-08-08",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33894/233743/file/CP%2020%20-%2008%20ao%C3%BBt%20%C3%A0%2013h.pdf",
+          "sha256": "035afcc21694bcf815580ad8eb41bcb5e0deaeab8888a34e5e0a2d6fef9dd48f",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-21",
+          "local_date": "2025-08-08",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33903/233787/file/CP%2021%20-%2008%20ao%C3%BBt%20%C3%A0%2018h30.pdf",
+          "sha256": "a5d44ae1c4e80001652d23f047e3162b3d29a52b799dc9a65f505c321f79f642",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "field-candidate-78263bbe39fadd8f2edc",
+          "local_date": "2025-08-08",
+          "date_status": "dated_image_alt",
+          "rights": "publicly_viewable_copyright_retained_private_evaluation_only",
+          "sha256": "ed4a081ebf7e48554c1ee07de52fab372de5a89a7a7d91d07c470b4b27f7eb9a",
+          "source_url": "https://www.euronews.com/2025/08/09/wildfires-rage-across-southern-europe-amid-record-temperatures",
+          "pipeline_branch": "ground_visual",
+          "independence_group": "Manu Fernandez / AP"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-09",
+      "source_counts": {
+        "ground_visual": 0,
+        "official_reports": 2
+      },
+      "sources": [
+        {
+          "id": "aude-cp-22",
+          "local_date": "2025-08-09",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33909/233817/file/CP%2022%20-%2009%20ao%C3%BBt%20%C3%A0%2011h.pdf",
+          "sha256": "9965d02e76f4f5c8b89fd833ccbcc639ebbc817c9748faa79ba47f2a26c2f4b2",
+          "pipeline_branch": "reports_text"
+        },
+        {
+          "id": "aude-cp-23",
+          "local_date": "2025-08-09",
+          "source_url": "https://www.aude.gouv.fr/contenu/telechargement/33911/233827/file/CP%2023%20-%2009%20ao%C3%BBt%20%C3%A0%2020h.pdf",
+          "sha256": "db32e7dd49d8cfd27c5ac1ee8fbbbbc65a1dee370ff5d6aa05e06e857d3dcf90",
+          "pipeline_branch": "reports_text"
+        }
+      ]
+    }
+  ]
+}

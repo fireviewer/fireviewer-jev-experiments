@@ -1,0 +1,55 @@
+{
+  "ground_visual": {
+    "inputs": [
+      "ground_image",
+      "ground_video"
+    ],
+    "consumer": "fireviewer_vision_runtime / visual grounding and geographic projection",
+    "semantic": "observed visible flame/smoke with viewpoint and uncertainty"
+  },
+  "sentinel2_optical_change": {
+    "inputs": [
+      "B04_20m",
+      "B8A_20m",
+      "B11_20m",
+      "B12_20m",
+      "SCL_20m"
+    ],
+    "consumer": "fireviewer_evidence_ingestion.mvp.satellite_corpus -> sentinel2_nbr_from_window",
+    "semantic": "affected area support and valid coverage; not active front"
+  },
+  "thermal_activity": {
+    "inputs": [
+      "NASA FIRMS MODIS/VIIRS observations",
+      "Sentinel-3 FRP"
+    ],
+    "consumer": "backend official_connectors.NasaFirmsAreaConnector / fireviewer_evidence_ingestion.mvp.satellite_observations",
+    "semantic": "bounded thermal activity support with sensor footprints; not exact boundary"
+  },
+  "clms_burned_area": {
+    "inputs": [
+      "ba300_dob_nrt",
+      "ba300_cp_nrt",
+      "ba300_bf_nrt"
+    ],
+    "consumer": "fireviewer_evidence_ingestion.mvp.satellite_observations",
+    "semantic": "dated burned-area support at native source resolution"
+  },
+  "reports_text": {
+    "inputs": [
+      "official_daily_report",
+      "dated testimony",
+      "article"
+    ],
+    "consumer": "evidence ingestion and supervision; official statistics retained with timestamps"
+  },
+  "browse_only": {
+    "inputs": [
+      "GIBS rendered preview",
+      "Sentinel-2 thumbnail"
+    ],
+    "consumer": "display and provenance, excluded from spectral/thermal numerical processing"
+  },
+  "missing_sources": "record unavailable sources; partial days remain processable",
+  "user_instruction": "Use satellite, thermal and hotspot sources in their own pipeline branches"
+}

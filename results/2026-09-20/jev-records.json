@@ -1,0 +1,6166 @@
+[
+  {
+    "case_id": "aude-cp-01",
+    "component_id": "FV-01",
+    "input_sha256": "381744fb57e4eb813ac178fd4716e5c2f3f028b5d2b1461ad51f38c04269452b",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b92dcbba8026a8a060934b588d8d47f04a99732e38048a6f3d202793b36b41e1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "indeterminate": 0.16,
+            "vegetation_fire": 0.79,
+            "other_fire": 0.05
+          },
+          "confidence": 0.74
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "indeterminate": 0.16,
+            "vegetation_fire": 0.79,
+            "other_fire": 0.05
+          },
+          "confidence": 0.74
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 980,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.1160000000000006e-05,
+    "latency_ms": 1037.173
+  },
+  {
+    "case_id": "aude-cp-02",
+    "component_id": "FV-01",
+    "input_sha256": "54a2f436bf38f9a3002f72fc675021611bfcc95456c1b75a0167cc194fe9a98c",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c4ac568e16eb6cd1979105ef0def42548cc3c6da783b80c8c452933b3b6f9af0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.04,
+            "retrospective": 0.0,
+            "other_fire": 0.01,
+            "vegetation_fire": 0.95,
+            "prevention": 0.0
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.04,
+            "retrospective": 0.0,
+            "other_fire": 0.01,
+            "vegetation_fire": 0.95,
+            "prevention": 0.0
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 3.9522000000000005e-05,
+    "latency_ms": 847.161
+  },
+  {
+    "case_id": "aude-cp-03",
+    "component_id": "FV-01",
+    "input_sha256": "546ff7432b1ec3649031aa8a000f0de415bf67ede31ccba7665ce6457b60fbbd",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "a3b1fa6ab91865a2f5cd3d6c89498dc77513edab94b58e89dd44210b9fb3f728"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.03,
+            "vegetation_fire": 0.96,
+            "other_fire": 0.01
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.03,
+            "vegetation_fire": 0.96,
+            "other_fire": 0.01
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 930,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 3.906e-05,
+    "latency_ms": 847.823
+  },
+  {
+    "case_id": "aude-cp-04",
+    "component_id": "FV-01",
+    "input_sha256": "1710192b62a6bd255740c02e02905e0fe42c9895052c290efd81379ec5f3ed34",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b1da15dbeb20742addeea43a226f8707db28ca30df2c3a6a8439cef5f8b24568"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.98,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.98,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1075,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.5150000000000006e-05,
+    "latency_ms": 793.247
+  },
+  {
+    "case_id": "aude-cp-05",
+    "component_id": "FV-01",
+    "input_sha256": "2ea9a5862293b92879fc1a42d20716695fed4efd88296014629606af086bf21e",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "6377633eb0fcfd421e0fe7671f9c728be7a8c5f0a645dc6b5872a7e8aa7dba85"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.96,
+            "retrospective": 0.0,
+            "other_fire": 0.01,
+            "prevention": 0.0,
+            "indeterminate": 0.03
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.96,
+            "retrospective": 0.0,
+            "other_fire": 0.01,
+            "prevention": 0.0,
+            "indeterminate": 0.03
+          },
+          "confidence": 0.95
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1115,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.6830000000000004e-05,
+    "latency_ms": 837.67
+  },
+  {
+    "case_id": "aude-cp-06",
+    "component_id": "FV-01",
+    "input_sha256": "85f8f84229268a14a1677c4a508abd50bd0b379f418592e7ee6f3b34660bb21e",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7a3b8e8eda723b957c21f15f75a4627d169178dfcb22e63feba4344aa282a4e7"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "retrospective": 0.0,
+            "vegetation_fire": 0.96,
+            "prevention": 0.0,
+            "other_fire": 0.01,
+            "indeterminate": 0.03
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "retrospective": 0.0,
+            "vegetation_fire": 0.96,
+            "prevention": 0.0,
+            "other_fire": 0.01,
+            "indeterminate": 0.03
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1116,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.6872e-05,
+    "latency_ms": 895.442
+  },
+  {
+    "case_id": "aude-cp-07",
+    "component_id": "FV-01",
+    "input_sha256": "597cd8a2aa74545ff11d29431525af6dbe562153bc590aaaec84c754df60ae44",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7d6eefdd778cc9c89e159d578199dbe6ca31f12ac741be23ab1441c964ee87b9"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.03,
+            "vegetation_fire": 0.96,
+            "other_fire": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.03,
+            "vegetation_fire": 0.96,
+            "other_fire": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1133,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.758600000000001e-05,
+    "latency_ms": 781.733
+  },
+  {
+    "case_id": "field-candidate-0ea3e17f451d8e5e0631",
+    "component_id": "FV-01",
+    "input_sha256": "d78b7eda97d244993d1a8c8594e6b7cd1f04e55b00ee1976f6293dfba6d842f3",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "8cb98a15b90dd12b8162aaed75e57c011ea9ec92f52e6ffde739918de0f60d7a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98,
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98,
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 685,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.8770000000000004e-05,
+    "latency_ms": 836.259
+  },
+  {
+    "case_id": "field-candidate-12314d0c914305a57ac2",
+    "component_id": "FV-01",
+    "input_sha256": "7b25ec4aea8e2dd13f473b5480861a740b047d2b4e46b69c5a85b28866a3e1cd",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7c9e8e05722b1cbc208718b4f97be44fe954a8071653143fe554d1522008e7e1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.09
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.09
+        }
+      },
+      "usage": {
+        "input_tokens": 600,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.5200000000000003e-05,
+    "latency_ms": 893.57
+  },
+  {
+    "case_id": "field-candidate-2e2e8b6f3825b889da3b",
+    "component_id": "FV-01",
+    "input_sha256": "70b4f797dafcfdcc73c84378268a908600b119c45d43be68966409e693e6711d",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "10da36e56563c9a2ea4b5e54e9e8fc24e3a75274fd8f55becb8c25e9cc149545"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.8200000000000001,
+            "other_fire": 0.03,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.15
+          },
+          "confidence": 0.77
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.8200000000000001,
+            "other_fire": 0.03,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.15
+          },
+          "confidence": 0.77
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 634,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.6628e-05,
+    "latency_ms": 776.876
+  },
+  {
+    "case_id": "field-candidate-33d42a8444f51d323ee8",
+    "component_id": "FV-01",
+    "input_sha256": "d35556291cbf940111076da4c0216a0f958ea5ee93f604f867eb8ce45005ba71",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e65500db71a58880fca378d11b5b6bdd5b61385f887e78291d1f4646f97d5ee1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 713,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.9946e-05,
+    "latency_ms": 800.78
+  },
+  {
+    "case_id": "field-candidate-3df762edc48306125334",
+    "component_id": "FV-01",
+    "input_sha256": "a2e976ec044a292dddb384cbec390706e1db5925251d0a4e2a3cc90858cb7148",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "3860063c3d25124bf87cea4fd32dc2c2c1b805d27c8a26aaaae9227506b6b9b1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 712,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.9904000000000004e-05,
+    "latency_ms": 797.642
+  },
+  {
+    "case_id": "field-candidate-401389ae05ea06d1f186",
+    "component_id": "FV-01",
+    "input_sha256": "8ceef7393d7861366668cac9b1381f503be4a1a16373e7bb98e1034b9c453f7e",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e1ca1a50766ce8aae3752a95060e70f41458b2aef6ac1606de8d64204fb51cf1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.01,
+            "indeterminate": 0.36,
+            "retrospective": 0.1,
+            "vegetation_fire": 0.53
+          },
+          "confidence": 0.41
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.71
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.01,
+            "indeterminate": 0.36,
+            "retrospective": 0.1,
+            "vegetation_fire": 0.53
+          },
+          "confidence": 0.41
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.71
+        }
+      },
+      "usage": {
+        "input_tokens": 610,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.5620000000000002e-05,
+    "latency_ms": 746.727
+  },
+  {
+    "case_id": "field-candidate-51eedf32fa648b7e5f4e",
+    "component_id": "FV-01",
+    "input_sha256": "252e9824be44db05ff170da6f043863dcf6c83d6d01ccd9b21224f48bccbc807",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "676a5f6d2859974085d1c7d290b97b4b97aedefaa68bc2ba3b1a80806d1a571f"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      },
+      "usage": {
+        "input_tokens": 588,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4696000000000002e-05,
+    "latency_ms": 939.709
+  },
+  {
+    "case_id": "field-candidate-60b0b9e8e4f66ad21da4",
+    "component_id": "FV-01",
+    "input_sha256": "09ba3c551567b8cda8838b45c7e11acf1f2d11c3bb0a4cc34ff146e294cf6910",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b873985e431fdac00f75ee17d74d417611ce2aad2837683b1c1d796916e05e25"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      },
+      "usage": {
+        "input_tokens": 589,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4738000000000003e-05,
+    "latency_ms": 819.631
+  },
+  {
+    "case_id": "field-candidate-94ac8e8c221841f5b577",
+    "component_id": "FV-01",
+    "input_sha256": "53f40e5bc30c5ceb114debdb862bf7634582616fda85168ca960db06c15b1e66",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "2b8d8664cb6b3e1249aa277b002d7d64b3064ab1f5bf55187848c677bda002bf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.05
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "vegetation_fire": 0.0,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.05
+        }
+      },
+      "usage": {
+        "input_tokens": 590,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.478e-05,
+    "latency_ms": 901.324
+  },
+  {
+    "case_id": "field-candidate-9a3dca73607f1283f708",
+    "component_id": "FV-01",
+    "input_sha256": "c5ef9a2fa4cce851109e72513e6fde578bcec21a1e2ef904171b40c41d48ea52",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "1966df643b3c5581db1fcbd27c73f3c784e5e3ad74f64f36d7dcb323ff49a5a7"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.99
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.99
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 713,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.9946e-05,
+    "latency_ms": 841.515
+  },
+  {
+    "case_id": "field-candidate-b277e99b20f423d12e24",
+    "component_id": "FV-01",
+    "input_sha256": "18e2dd916f63fb14773f6ca73bd0467066968dfc9be2d95d38a7a3cdcd32e123",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "5e120f85252fca3b1e3fa676e4129db2086324206058e57cbec98a01a422cc7a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "indeterminate": 1.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.05
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "indeterminate": 1.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.05
+        }
+      },
+      "usage": {
+        "input_tokens": 590,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.478e-05,
+    "latency_ms": 882.255
+  },
+  {
+    "case_id": "field-candidate-ba9f3cd5043c04ba162b",
+    "component_id": "FV-01",
+    "input_sha256": "0ddff6d3072dab3efa94b4aa7d3d46ef893b31cdcc02a3010c2605f9e50bc4b0",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "8679d70b6cdd4cc88a15acf8b69f26dffe9c6e2110bb6d98684ccd472257aa93"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      },
+      "usage": {
+        "input_tokens": 587,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4654e-05,
+    "latency_ms": 843.931
+  },
+  {
+    "case_id": "field-candidate-e6c0eab67bed532a13d5",
+    "component_id": "FV-01",
+    "input_sha256": "4735d33739576fcc6aa95e78765bc692bcfb7692111c5d06c7e6cee5b1136776",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "721f3a6bb625ba61134d194c87cb3af76ddee917546347a3834b3e12be5e71bf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      },
+      "usage": {
+        "input_tokens": 587,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4654e-05,
+    "latency_ms": 847.347
+  },
+  {
+    "case_id": "field-candidate-ef7df448480860ca6b67",
+    "component_id": "FV-01",
+    "input_sha256": "fbb13f14e7f9e48884a46b21265972b60662a4ac7a20a32cc16104f99fb62d49",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "5217053c644f230a3cddb37c930db1859eb808cbffff0efeaef52213be8828df"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "indeterminate": 0.0,
+            "vegetation_fire": 1.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "indeterminate": 0.0,
+            "vegetation_fire": 1.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 674,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.8308000000000004e-05,
+    "latency_ms": 850.444
+  },
+  {
+    "case_id": "field-candidate-f12e3ce208b9735eca64",
+    "component_id": "FV-01",
+    "input_sha256": "d0ed90b3c614bab3d81f2ac4290c3000334a3f339a4a900c0e2dd8d0863c78d4",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b5b3f3136105a47cda60ed677d8e40e8bd199bc1ecccf9ffa92dc2a9fe833fe9"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 710,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.982e-05,
+    "latency_ms": 792.621
+  },
+  {
+    "case_id": "aude-cp-01",
+    "component_id": "FV-02",
+    "input_sha256": "101bccc077fc0b5ab5fab0f421840c3becdb7b8cf44cde7fcd9b3cffc9316585",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b92dcbba8026a8a060934b588d8d47f04a99732e38048a6f3d202793b36b41e1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.72,
+            "insufficient": 0.01,
+            "advice": 0.13,
+            "firsthand": 0.14
+          },
+          "confidence": 0.66
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.18
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.72,
+            "insufficient": 0.01,
+            "advice": 0.13,
+            "firsthand": 0.14
+          },
+          "confidence": 0.66
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.18
+        }
+      },
+      "usage": {
+        "input_tokens": 1002,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.2084000000000006e-05,
+    "latency_ms": 821.02
+  },
+  {
+    "case_id": "aude-cp-02",
+    "component_id": "FV-02",
+    "input_sha256": "90d5a83746fd94973d6c1c34b6d42c7b566a70f8df9ce3f8a706b7818e5994b0",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c4ac568e16eb6cd1979105ef0def42548cc3c6da783b80c8c452933b3b6f9af0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.83,
+            "advice": 0.1,
+            "firsthand": 0.06,
+            "insufficient": 0.01,
+            "simulation": 0.0
+          },
+          "confidence": 0.78
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.83,
+            "advice": 0.1,
+            "firsthand": 0.06,
+            "insufficient": 0.01,
+            "simulation": 0.0
+          },
+          "confidence": 0.78
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 956,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.0152e-05,
+    "latency_ms": 732.542
+  },
+  {
+    "case_id": "aude-cp-03",
+    "component_id": "FV-02",
+    "input_sha256": "36bc0fd539ede38ca2f593835f11507d6666889c7a2eb5d93f6fa3889430101c",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "a3b1fa6ab91865a2f5cd3d6c89498dc77513edab94b58e89dd44210b9fb3f728"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.6,
+            "insufficient": 0.0,
+            "advice": 0.34,
+            "firsthand": 0.06
+          },
+          "confidence": 0.49
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.6,
+            "insufficient": 0.0,
+            "advice": 0.34,
+            "firsthand": 0.06
+          },
+          "confidence": 0.49
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      },
+      "usage": {
+        "input_tokens": 953,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.0026000000000006e-05,
+    "latency_ms": 789.861
+  },
+  {
+    "case_id": "aude-cp-04",
+    "component_id": "FV-02",
+    "input_sha256": "58e2939c7b60931cbdc1d537d593ff23b411f60571b1c44e0b4ce03f6aa2d18b",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b1da15dbeb20742addeea43a226f8707db28ca30df2c3a6a8439cef5f8b24568"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.24,
+            "simulation": 0.0,
+            "insufficient": 0.0,
+            "third_party": 0.72,
+            "firsthand": 0.04
+          },
+          "confidence": 0.64
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.24,
+            "simulation": 0.0,
+            "insufficient": 0.0,
+            "third_party": 0.72,
+            "firsthand": 0.04
+          },
+          "confidence": 0.64
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      },
+      "usage": {
+        "input_tokens": 1091,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.5822e-05,
+    "latency_ms": 844.14
+  },
+  {
+    "case_id": "aude-cp-05",
+    "component_id": "FV-02",
+    "input_sha256": "6882f32a0a0e253d0bcc8a9bf1b410cc228f21662d6c5f629cf277d37a6f459a",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "6377633eb0fcfd421e0fe7671f9c728be7a8c5f0a645dc6b5872a7e8aa7dba85"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.29,
+            "insufficient": 0.0,
+            "third_party": 0.66,
+            "firsthand": 0.05,
+            "simulation": 0.0
+          },
+          "confidence": 0.57
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.29,
+            "insufficient": 0.0,
+            "third_party": 0.66,
+            "firsthand": 0.05,
+            "simulation": 0.0
+          },
+          "confidence": 0.57
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      },
+      "usage": {
+        "input_tokens": 1139,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.7838e-05,
+    "latency_ms": 971.416
+  },
+  {
+    "case_id": "aude-cp-06",
+    "component_id": "FV-02",
+    "input_sha256": "c4a99430e3efbc4ba02e7f12f75d0a6d11f2764428d3f9157b180de89ca42241",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7a3b8e8eda723b957c21f15f75a4627d169178dfcb22e63feba4344aa282a4e7"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.3,
+            "third_party": 0.65,
+            "firsthand": 0.05,
+            "simulation": 0.0
+          },
+          "confidence": 0.55
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.3,
+            "third_party": 0.65,
+            "firsthand": 0.05,
+            "simulation": 0.0
+          },
+          "confidence": 0.55
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      },
+      "usage": {
+        "input_tokens": 1140,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.788e-05,
+    "latency_ms": 793.778
+  },
+  {
+    "case_id": "aude-cp-07",
+    "component_id": "FV-02",
+    "input_sha256": "f8a4d6f966b17686ec7fe193571b9113f9caade1d2adc516d43f41d9f10d6bd3",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7d6eefdd778cc9c89e159d578199dbe6ca31f12ac741be23ab1441c964ee87b9"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.64,
+            "firsthand": 0.06,
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "advice": 0.3
+          },
+          "confidence": 0.54
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.64,
+            "firsthand": 0.06,
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "advice": 0.3
+          },
+          "confidence": 0.54
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      },
+      "usage": {
+        "input_tokens": 1159,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.8678000000000004e-05,
+    "latency_ms": 813.055
+  },
+  {
+    "case_id": "field-candidate-0ea3e17f451d8e5e0631",
+    "component_id": "FV-02",
+    "input_sha256": "1e2714ac0f89e53e64085470eec0bdfacdbe3746e1db062acf1542c09df7c590",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "8cb98a15b90dd12b8162aaed75e57c011ea9ec92f52e6ffde739918de0f60d7a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.0,
+            "third_party": 0.99,
+            "simulation": 0.0,
+            "firsthand": 0.01
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.26
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.0,
+            "third_party": 0.99,
+            "simulation": 0.0,
+            "firsthand": 0.01
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.26
+        }
+      },
+      "usage": {
+        "input_tokens": 704,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.9568000000000002e-05,
+    "latency_ms": 728.912
+  },
+  {
+    "case_id": "field-candidate-12314d0c914305a57ac2",
+    "component_id": "FV-02",
+    "input_sha256": "f370f7031ae8bdedb955dea3f4eca7fe204fbc3e5bae5912b9ae310a7fee7c0c",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "7c9e8e05722b1cbc208718b4f97be44fe954a8071653143fe554d1522008e7e1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.14,
+            "insufficient": 0.84,
+            "advice": 0.0,
+            "firsthand": 0.02
+          },
+          "confidence": 0.79
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.87
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.14,
+            "insufficient": 0.84,
+            "advice": 0.0,
+            "firsthand": 0.02
+          },
+          "confidence": 0.79
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.87
+        }
+      },
+      "usage": {
+        "input_tokens": 596,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.5032e-05,
+    "latency_ms": 859.591
+  },
+  {
+    "case_id": "field-candidate-2e2e8b6f3825b889da3b",
+    "component_id": "FV-02",
+    "input_sha256": "f8232c9f758271d6511f988b0459bdb9e2956c70dd11885c689b346d6370a4ea",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "10da36e56563c9a2ea4b5e54e9e8fc24e3a75274fd8f55becb8c25e9cc149545"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.25
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.25
+        }
+      },
+      "usage": {
+        "input_tokens": 658,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.7636000000000004e-05,
+    "latency_ms": 811.689
+  },
+  {
+    "case_id": "field-candidate-33d42a8444f51d323ee8",
+    "component_id": "FV-02",
+    "input_sha256": "7d16d071e2c2e8cdc57d7e15757c8de5451010035fd47d1606ebda95de9fd997",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e65500db71a58880fca378d11b5b6bdd5b61385f887e78291d1f4646f97d5ee1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 1.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0,
+            "simulation": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.13
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 1.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0,
+            "simulation": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.13
+        }
+      },
+      "usage": {
+        "input_tokens": 733,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 3.0786e-05,
+    "latency_ms": 873.301
+  },
+  {
+    "case_id": "field-candidate-3df762edc48306125334",
+    "component_id": "FV-02",
+    "input_sha256": "d8174baedcc8fcfbcef7c6377d6e9d0c61f23eb5f8a7562704def9f3780b790d",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "3860063c3d25124bf87cea4fd32dc2c2c1b805d27c8a26aaaae9227506b6b9b1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      },
+      "usage": {
+        "input_tokens": 734,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 3.0828000000000004e-05,
+    "latency_ms": 797.473
+  },
+  {
+    "case_id": "field-candidate-401389ae05ea06d1f186",
+    "component_id": "FV-02",
+    "input_sha256": "fff4ca66906943bc52738f571b81e02925e6a3e03c92d9197d5136eeff025460",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e1ca1a50766ce8aae3752a95060e70f41458b2aef6ac1606de8d64204fb51cf1"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "insufficient": 0.01,
+            "third_party": 0.99,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.5
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "insufficient": 0.01,
+            "third_party": 0.99,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.5
+        }
+      },
+      "usage": {
+        "input_tokens": 602,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.5284000000000004e-05,
+    "latency_ms": 831.483
+  },
+  {
+    "case_id": "field-candidate-51eedf32fa648b7e5f4e",
+    "component_id": "FV-02",
+    "input_sha256": "d63cfa81a5c89bb31204c3b841e4997cdec1a64e5a69f246b4343e0885d76ab5",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "676a5f6d2859974085d1c7d290b97b4b97aedefaa68bc2ba3b1a80806d1a571f"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.0,
+            "insufficient": 1.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.0,
+            "insufficient": 1.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 594,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4948e-05,
+    "latency_ms": 830.645
+  },
+  {
+    "case_id": "field-candidate-60b0b9e8e4f66ad21da4",
+    "component_id": "FV-02",
+    "input_sha256": "d63cfa81a5c89bb31204c3b841e4997cdec1a64e5a69f246b4343e0885d76ab5",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b873985e431fdac00f75ee17d74d417611ce2aad2837683b1c1d796916e05e25"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 1.0,
+            "simulation": 0.0,
+            "third_party": 0.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 1.0,
+            "simulation": 0.0,
+            "third_party": 0.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 594,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4948e-05,
+    "latency_ms": 811.886
+  },
+  {
+    "case_id": "field-candidate-94ac8e8c221841f5b577",
+    "component_id": "FV-02",
+    "input_sha256": "d63cfa81a5c89bb31204c3b841e4997cdec1a64e5a69f246b4343e0885d76ab5",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "2b8d8664cb6b3e1249aa277b002d7d64b3064ab1f5bf55187848c677bda002bf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.0,
+            "insufficient": 1.0,
+            "firsthand": 0.0,
+            "simulation": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.0,
+            "insufficient": 1.0,
+            "firsthand": 0.0,
+            "simulation": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 594,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4948e-05,
+    "latency_ms": 842.825
+  },
+  {
+    "case_id": "field-candidate-9a3dca73607f1283f708",
+    "component_id": "FV-02",
+    "input_sha256": "b9eeb0b06bc64566b786ab2b2e261eb2605c690907fcddb7588b5763a92d7bd4",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "1966df643b3c5581db1fcbd27c73f3c784e5e3ad74f64f36d7dcb323ff49a5a7"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0,
+            "third_party": 1.0,
+            "simulation": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0,
+            "third_party": 1.0,
+            "simulation": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 727,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 3.0534e-05,
+    "latency_ms": 772.961
+  },
+  {
+    "case_id": "field-candidate-b277e99b20f423d12e24",
+    "component_id": "FV-02",
+    "input_sha256": "6a4b3cf7820cc7ca746c958b85ca893e20506d688f50877473050b9f105be149",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "5e120f85252fca3b1e3fa676e4129db2086324206058e57cbec98a01a422cc7a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.0,
+            "insufficient": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.0,
+            "insufficient": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4822000000000004e-05,
+    "latency_ms": 821.189
+  },
+  {
+    "case_id": "field-candidate-ba9f3cd5043c04ba162b",
+    "component_id": "FV-02",
+    "input_sha256": "d63cfa81a5c89bb31204c3b841e4997cdec1a64e5a69f246b4343e0885d76ab5",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "8679d70b6cdd4cc88a15acf8b69f26dffe9c6e2110bb6d98684ccd472257aa93"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "advice": 0.0,
+            "firsthand": 0.0,
+            "third_party": 0.0,
+            "simulation": 0.0,
+            "insufficient": 1.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "advice": 0.0,
+            "firsthand": 0.0,
+            "third_party": 0.0,
+            "simulation": 0.0,
+            "insufficient": 1.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 594,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4948e-05,
+    "latency_ms": 917.79
+  },
+  {
+    "case_id": "field-candidate-e6c0eab67bed532a13d5",
+    "component_id": "FV-02",
+    "input_sha256": "2761f59d97bb7f703c56bc28656241e1d423a1f853232e0ffc2ac3e08dcf6e27",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "721f3a6bb625ba61134d194c87cb3af76ddee917546347a3834b3e12be5e71bf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "insufficient": 0.99,
+            "third_party": 0.01,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "simulation": 0.0,
+            "insufficient": 0.99,
+            "third_party": 0.01,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 586,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.4612e-05,
+    "latency_ms": 1045.909
+  },
+  {
+    "case_id": "field-candidate-ef7df448480860ca6b67",
+    "component_id": "FV-02",
+    "input_sha256": "722dbd84a46e9b3eb576f633f0d09f00b479be380873c05ddd6e97907798348c",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "5217053c644f230a3cddb37c930db1859eb808cbffff0efeaef52213be8828df"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.99,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.01,
+            "simulation": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.34
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.99,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.01,
+            "simulation": 0.0
+          },
+          "confidence": 0.99
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.34
+        }
+      },
+      "usage": {
+        "input_tokens": 663,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.7846e-05,
+    "latency_ms": 822.488
+  },
+  {
+    "case_id": "field-candidate-f12e3ce208b9735eca64",
+    "component_id": "FV-02",
+    "input_sha256": "d8174baedcc8fcfbcef7c6377d6e9d0c61f23eb5f8a7562704def9f3780b790d",
+    "frozen_context": {
+      "corpus_sha256": "50fd1116b5908dd1a45ea97dc7ff0010ae0b2634c7b3a9ea05f2ab1ca93c6448",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "b5b3f3136105a47cda60ed677d8e40e8bd199bc1ecccf9ffa92dc2a9fe833fe9"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "insufficient": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.12
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "insufficient": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.12
+        }
+      },
+      "usage": {
+        "input_tokens": 734,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 3.0828000000000004e-05,
+    "latency_ms": 963.552
+  },
+  {
+    "case_id": "aude-cp-08",
+    "component_id": "FV-01",
+    "input_sha256": "6bc47076d36c9705960e00467aee021f5c8065766e97176a6e97b2c69a3db9fe",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "1ba9c554600478e9d77b2b97d0028a1529a2acca0a43b09f8b0c525a57c187e0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1236,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.191200000000001e-05,
+    "latency_ms": 1029.304
+  },
+  {
+    "case_id": "aude-cp-09",
+    "component_id": "FV-01",
+    "input_sha256": "10b1aec2b1ae9262139475f51d6de2f457673b6d0b9f1ab55fe53bdd8471e4ed",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "d5ef1042ad317725ccb1a8578cf4dc332f0fcd3f7c38da56d05bf0cf4e628df5"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.97,
+            "other_fire": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.97,
+            "other_fire": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1171,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.9182000000000004e-05,
+    "latency_ms": 886.802
+  },
+  {
+    "case_id": "aude-cp-10",
+    "component_id": "FV-01",
+    "input_sha256": "b496e79b38453f4d34f96a175f9e3f06c69f84452dba370a1a9c6d153de8881b",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "86668977365c140dc8a157682a70ee066d8726ba3399c0e273bdc16b4db8dc41"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1119,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.6998000000000006e-05,
+    "latency_ms": 974.554
+  },
+  {
+    "case_id": "aude-cp-11",
+    "component_id": "FV-01",
+    "input_sha256": "a6184dc546cfef09131c7be465a5a6c93b6d1234b0115e6a8d4a3b604f9d6733",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "71d682221e61242b9724220051250e3c3fe557bde09b7ace03a993d5cbe38c2c"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.98,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.98,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1001,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 4.2042e-05,
+    "latency_ms": 815.331
+  },
+  {
+    "case_id": "aude-cp-12",
+    "component_id": "FV-01",
+    "input_sha256": "c2f7f940a2d65f77c7477a7c2d8d86505a6e1e16f05d10645db3c3e3327b22e5",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "67591c1df7f8133d062af38c1da48ae060fdd652f412d7145b2185e9612cc285"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.02,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.98,
+            "retrospective": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.02,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.98,
+            "retrospective": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1192,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.0064e-05,
+    "latency_ms": 850.514
+  },
+  {
+    "case_id": "aude-cp-13",
+    "component_id": "FV-01",
+    "input_sha256": "62a96408d6927a1a9203457bf7fac5567d0682f728b84edd4ca569d853fbe793",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "9bd45419b2b5f9bd1024009c76dc529e23ab7e30e8ddadcd69c0cb2e2d1bf2a0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.98,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.98,
+            "indeterminate": 0.02
+          },
+          "confidence": 0.96
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1235,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.187e-05,
+    "latency_ms": 790.474
+  },
+  {
+    "case_id": "aude-cp-14",
+    "component_id": "FV-01",
+    "input_sha256": "0cf2548ad56d4f3843e6e6d5c729120f7e68639795f9007346094249add8c1e1",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "df06d9fefe132e0f358b6e1be501ce0309b3b26888d65a272404335bcb944bda"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1374,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.7708000000000004e-05,
+    "latency_ms": 833.877
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-1",
+    "component_id": "FV-01",
+    "input_sha256": "d287b294966247365e00c7d18559c3c0c3a29f2f34dc988c2827d9a3fe2ad37f",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "f01e3ca243d0bce25b131888a564e314d30fd9c6fdbf7ce5730190401005986a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      },
+      "usage": {
+        "input_tokens": 584,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4528000000000003e-05,
+    "latency_ms": 831.239
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-2",
+    "component_id": "FV-01",
+    "input_sha256": "7e2a715bc5cfc7507a2180c496ba5bf31d6a80786c5979b383bfb2fdc123becf",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "119f60ca2cd906ed1215a8e6ebb3cee9f8f447c0374d6f3b8b794b3649d106f4"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 1.0,
+            "vegetation_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      },
+      "usage": {
+        "input_tokens": 584,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4528000000000003e-05,
+    "latency_ms": 1098.893
+  },
+  {
+    "case_id": "field-candidate-5b3415bf2ae6f36ae11c",
+    "component_id": "FV-01",
+    "input_sha256": "55994735e64ff8721d46d9f57dc608ebea80cf8e90d70f279e298e2dc18f171d",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c7e2e05ae422425086d2e18010a3177007c87c3aaff3cf8bc970ffad336c7526"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "prevention": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.96
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "other_fire": 0.0,
+            "indeterminate": 0.01,
+            "prevention": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.96
+        }
+      },
+      "usage": {
+        "input_tokens": 647,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.7174000000000004e-05,
+    "latency_ms": 829.424
+  },
+  {
+    "case_id": "field-candidate-5f1bcd4792dee90851b7",
+    "component_id": "FV-01",
+    "input_sha256": "ae17711dcac5f8af094551fe16ea74a35869cde939853a3871adad543501d520",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "980bee88f5b9d3700ded47a182158503d6e2db1a218c1fbd3472679ab7b09c3b"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "indeterminate": 0.05,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.95
+          },
+          "confidence": 0.93
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "indeterminate": 0.05,
+            "retrospective": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.95
+          },
+          "confidence": 0.93
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 636,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.6712000000000004e-05,
+    "latency_ms": 889.734
+  },
+  {
+    "case_id": "field-candidate-7b7b2c1d03c9a3b2bbfd",
+    "component_id": "FV-01",
+    "input_sha256": "e992200761dc2151b2aef04a21500422016b2a24d39fe8bc6453ad2ef5e217e3",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "012d80dcfb58e6ba3cea7f5d77ca9a5db97fcb7cd26ed19d70d28ebbf1908aaf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.99,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.96
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "vegetation_fire": 0.99,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.96
+        }
+      },
+      "usage": {
+        "input_tokens": 647,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.7174000000000004e-05,
+    "latency_ms": 1000.904
+  },
+  {
+    "case_id": "field-candidate-88df9166b58003d86f13",
+    "component_id": "FV-01",
+    "input_sha256": "0e1473077e2029a7a1c890a5434d7bcf7f167b6dec393fecf41fb3a7d4b7df4f",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "18a2b740f5dee4cf00a3223ebb013cbd307f49fa8d52b161e8f5503bfa6ee4b3"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 646,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.7132e-05,
+    "latency_ms": 805.649
+  },
+  {
+    "case_id": "field-candidate-c7608ac7e39132110523",
+    "component_id": "FV-01",
+    "input_sha256": "e774e66d6b18966bf0716ca18541b1c17cd8aa417201bbff746165391674a12b",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c67ed69004e28bca3e410f049348efe67fdb5b8fa5728f29b83c350f1776672b"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "prevention": 0.0,
+            "indeterminate": 0.02,
+            "vegetation_fire": 0.98,
+            "other_fire": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 634,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.6628e-05,
+    "latency_ms": 891.028
+  },
+  {
+    "case_id": "aude-cp-08",
+    "component_id": "FV-02",
+    "input_sha256": "27f35c9baa7ad446cf13a76c1eaa9db6f82c0bf6e35738f9de59a3caad7d5402",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "1ba9c554600478e9d77b2b97d0028a1529a2acca0a43b09f8b0c525a57c187e0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "advice": 0.23,
+            "third_party": 0.74,
+            "firsthand": 0.03
+          },
+          "confidence": 0.68
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "advice": 0.23,
+            "third_party": 0.74,
+            "firsthand": 0.03
+          },
+          "confidence": 0.68
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      },
+      "usage": {
+        "input_tokens": 1261,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.2962000000000006e-05,
+    "latency_ms": 780.659
+  },
+  {
+    "case_id": "aude-cp-09",
+    "component_id": "FV-02",
+    "input_sha256": "eccd905d1128497edc2327dc5dccd0f4dff33583d8eff647336fb5d457c77ec3",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "d5ef1042ad317725ccb1a8578cf4dc332f0fcd3f7c38da56d05bf0cf4e628df5"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.03,
+            "third_party": 0.76,
+            "advice": 0.21
+          },
+          "confidence": 0.7
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.03,
+            "third_party": 0.76,
+            "advice": 0.21
+          },
+          "confidence": 0.7
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      },
+      "usage": {
+        "input_tokens": 1196,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.023200000000001e-05,
+    "latency_ms": 815.951
+  },
+  {
+    "case_id": "aude-cp-10",
+    "component_id": "FV-02",
+    "input_sha256": "9d0d066bf16420b66df8bcc2738efd781cfb3871ea6f18e814dde0ff56ac56bf",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "86668977365c140dc8a157682a70ee066d8726ba3399c0e273bdc16b4db8dc41"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.67,
+            "advice": 0.28,
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.05
+          },
+          "confidence": 0.59
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 0.67,
+            "advice": 0.28,
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "firsthand": 0.05
+          },
+          "confidence": 0.59
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      },
+      "usage": {
+        "input_tokens": 1142,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 4.7964000000000004e-05,
+    "latency_ms": 1053.231
+  },
+  {
+    "case_id": "aude-cp-11",
+    "component_id": "FV-02",
+    "input_sha256": "ff1367a91320c03fbe330bc4d907e634bee9c7c8ad04ba99f47adc3aff0231aa",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "71d682221e61242b9724220051250e3c3fe557bde09b7ace03a993d5cbe38c2c"
+    },
+    "status": "error",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline"
+    },
+    "error_type": "ValueError",
+    "latency_ms": 836.985
+  },
+  {
+    "case_id": "aude-cp-12",
+    "component_id": "FV-02",
+    "input_sha256": "254374e827c09580f07057c1285a186922e2b4ea0af6052badeec03b77b21ffd",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "67591c1df7f8133d062af38c1da48ae060fdd652f412d7145b2185e9612cc285"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.36,
+            "insufficient": 0.0,
+            "firsthand": 0.06,
+            "third_party": 0.57,
+            "simulation": 0.01
+          },
+          "confidence": 0.46
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.19
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.36,
+            "insufficient": 0.0,
+            "firsthand": 0.06,
+            "third_party": 0.57,
+            "simulation": 0.01
+          },
+          "confidence": 0.46
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.19
+        }
+      },
+      "usage": {
+        "input_tokens": 1216,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.1072e-05,
+    "latency_ms": 787.806
+  },
+  {
+    "case_id": "aude-cp-13",
+    "component_id": "FV-02",
+    "input_sha256": "76c0ed94256dc9e36930f5f1ff99f20a920396ed6689e4511e47b40fbd7dbbcd",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "9bd45419b2b5f9bd1024009c76dc529e23ab7e30e8ddadcd69c0cb2e2d1bf2a0"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "advice",
+          "probabilities": {
+            "firsthand": 0.08,
+            "insufficient": 0.0,
+            "third_party": 0.43,
+            "advice": 0.48,
+            "simulation": 0.01
+          },
+          "confidence": 0.35
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "advice",
+          "probabilities": {
+            "firsthand": 0.08,
+            "insufficient": 0.0,
+            "third_party": 0.43,
+            "advice": 0.48,
+            "simulation": 0.01
+          },
+          "confidence": 0.35
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      },
+      "usage": {
+        "input_tokens": 1259,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.2878e-05,
+    "latency_ms": 777.477
+  },
+  {
+    "case_id": "aude-cp-14",
+    "component_id": "FV-02",
+    "input_sha256": "e5e050f494cc22106850d5bb25c26af640e0e6eab4b26985bdd59416d47467bd",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "df06d9fefe132e0f358b6e1be501ce0309b3b26888d65a272404335bcb944bda"
+    },
+    "status": "error",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline"
+    },
+    "error_type": "ValueError",
+    "latency_ms": 942.816
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-1",
+    "component_id": "FV-02",
+    "input_sha256": "d9d2a979d9ce55d7b8593fb8f58ce6e6637d0e04c3eb8a2569c376fe298560d3",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "f01e3ca243d0bce25b131888a564e314d30fd9c6fdbf7ce5730190401005986a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "firsthand": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 0.02,
+            "insufficient": 0.98
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "firsthand": 0.0,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 0.02,
+            "insufficient": 0.98
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      },
+      "usage": {
+        "input_tokens": 585,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.457e-05,
+    "latency_ms": 829.727
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-2",
+    "component_id": "FV-02",
+    "input_sha256": "d9d2a979d9ce55d7b8593fb8f58ce6e6637d0e04c3eb8a2569c376fe298560d3",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "119f60ca2cd906ed1215a8e6ebb3cee9f8f447c0374d6f3b8b794b3649d106f4"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.02,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "insufficient": 0.98,
+            "firsthand": 0.0
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.87
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "third_party": 0.02,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "insufficient": 0.98,
+            "firsthand": 0.0
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.87
+        }
+      },
+      "usage": {
+        "input_tokens": 585,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.457e-05,
+    "latency_ms": 1017.888
+  },
+  {
+    "case_id": "field-candidate-5b3415bf2ae6f36ae11c",
+    "component_id": "FV-02",
+    "input_sha256": "840407aae2343d8888041402419c5ea5071c981e4e5c18ad3b616cfb451172df",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c7e2e05ae422425086d2e18010a3177007c87c3aaff3cf8bc970ffad336c7526"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 0.01,
+            "firsthand": 0.11,
+            "third_party": 0.88,
+            "simulation": 0.0
+          },
+          "confidence": 0.85
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.0,
+            "insufficient": 0.01,
+            "firsthand": 0.11,
+            "third_party": 0.88,
+            "simulation": 0.0
+          },
+          "confidence": 0.85
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 642,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.6964e-05,
+    "latency_ms": 814.156
+  },
+  {
+    "case_id": "field-candidate-5f1bcd4792dee90851b7",
+    "component_id": "FV-02",
+    "input_sha256": "cf35e22f93423357f1b3b74b6b80c1f7e76f3fc1dd7b99c50a817aac7b87ccba",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "980bee88f5b9d3700ded47a182158503d6e2db1a218c1fbd3472679ab7b09c3b"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.85,
+            "insufficient": 0.13,
+            "firsthand": 0.02,
+            "advice": 0.0
+          },
+          "confidence": 0.8
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.85,
+            "insufficient": 0.13,
+            "firsthand": 0.02,
+            "advice": 0.0
+          },
+          "confidence": 0.8
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 647,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.7174000000000004e-05,
+    "latency_ms": 818.394
+  },
+  {
+    "case_id": "field-candidate-7b7b2c1d03c9a3b2bbfd",
+    "component_id": "FV-02",
+    "input_sha256": "ab9d9772a4879a59f47adbffe904f1dc9fe8ff0d46b6e4c80a40be1d7839d002",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "012d80dcfb58e6ba3cea7f5d77ca9a5db97fcb7cd26ed19d70d28ebbf1908aaf"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.01,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 0.86,
+            "firsthand": 0.13
+          },
+          "confidence": 0.82
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.09
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.01,
+            "advice": 0.0,
+            "simulation": 0.0,
+            "third_party": 0.86,
+            "firsthand": 0.13
+          },
+          "confidence": 0.82
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.09
+        }
+      },
+      "usage": {
+        "input_tokens": 633,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.6586000000000003e-05,
+    "latency_ms": 778.64
+  },
+  {
+    "case_id": "field-candidate-88df9166b58003d86f13",
+    "component_id": "FV-02",
+    "input_sha256": "bf0cdb4274b5856a04ad10ecc3304c9d35b665bd9a272f36aeeba3c0faa8ea18",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "18a2b740f5dee4cf00a3223ebb013cbd307f49fa8d52b161e8f5503bfa6ee4b3"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 1.0,
+            "simulation": 0.0,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.25
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "third_party": 1.0,
+            "simulation": 0.0,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.25
+        }
+      },
+      "usage": {
+        "input_tokens": 639,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.6838e-05,
+    "latency_ms": 964.042
+  },
+  {
+    "case_id": "field-candidate-c7608ac7e39132110523",
+    "component_id": "FV-02",
+    "input_sha256": "cb20300142137c7fab57e981d6d1a9dbea12549c745f3e6014741d51a4a57c50",
+    "frozen_context": {
+      "corpus_sha256": "2d196cd4297a351e23bd4d840a49fbe3cdecb944ed0a4cf3c4415b35647e3485",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c67ed69004e28bca3e410f049348efe67fdb5b8fa5728f29b83c350f1776672b"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "firsthand": 0.27,
+            "third_party": 0.63,
+            "insufficient": 0.1,
+            "advice": 0.0
+          },
+          "confidence": 0.54
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "firsthand": 0.27,
+            "third_party": 0.63,
+            "insufficient": 0.1,
+            "advice": 0.0
+          },
+          "confidence": 0.54
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 631,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.6502e-05,
+    "latency_ms": 772.498
+  },
+  {
+    "case_id": "aude-cp-15",
+    "component_id": "FV-01",
+    "input_sha256": "439e5832d533dae9f499c8ab6fc0ab630cab0fa15cff362d0d35f9fe26732354",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "6ad4655213e37de2d070ddfaee54bbada26c7443eb70920b4ab79d789502556c"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "other_fire": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "retrospective": 0.0,
+            "other_fire": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1499,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 6.2958e-05,
+    "latency_ms": 747.862
+  },
+  {
+    "case_id": "aude-cp-16",
+    "component_id": "FV-01",
+    "input_sha256": "ec300adc096b673cc5c788e930e5bb6fdb9a2df5e26363c5ea95a3131fafa80f",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "f0d33ad1b74956f86c6f873959ddf4a4489701f29a0b8d7839e60b1bc5976583"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "prevention": 0.0,
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.01
+          },
+          "confidence": 0.97
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1482,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 6.224400000000001e-05,
+    "latency_ms": 770.006
+  },
+  {
+    "case_id": "aude-cp-17",
+    "component_id": "FV-01",
+    "input_sha256": "0747bdda7a91a6c9c42aaff7770c81c6f35cf056748d2e23de7f27fdd1400e32",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "a011773f392e8205e7b960ce30bbd71f2d26aee624c0300f9b8d258320b626ff"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.99,
+            "indeterminate": 0.01,
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "retrospective": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1516,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 6.367200000000001e-05,
+    "latency_ms": 777.565
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-3",
+    "component_id": "FV-01",
+    "input_sha256": "9fdffbd3b4c65dc5fa50c4075287ad621726416f2f2f5829c3ca3fff2847b5cb",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "202cff5c4c0759bf3a0e627d790b88f93ce3cb22c88fcacdd1f6f993fe223b5a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "indeterminate": 1.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "indeterminate",
+          "probabilities": {
+            "other_fire": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.0,
+            "indeterminate": 1.0,
+            "prevention": 0.0
+          },
+          "confidence": 1.0
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.06
+        }
+      },
+      "usage": {
+        "input_tokens": 584,
+        "output_tokens": 84
+      }
+    },
+    "cost_usd": 2.4528000000000003e-05,
+    "latency_ms": 805.56
+  },
+  {
+    "case_id": "field-candidate-78762427f7db71d0deaa",
+    "component_id": "FV-01",
+    "input_sha256": "dabfa2154a1575b2df3ae1a4b765ab71dd498938ebffff414f80f4e973d41826",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "ba9aad49424d49b0e3152ff54768c9979c3060ef8ffbfbeefba27483e19db63c"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.11,
+            "indeterminate": 0.38,
+            "vegetation_fire": 0.49,
+            "retrospective": 0.01,
+            "prevention": 0.01
+          },
+          "confidence": 0.37
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.94
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.11,
+            "indeterminate": 0.38,
+            "vegetation_fire": 0.49,
+            "retrospective": 0.01,
+            "prevention": 0.01
+          },
+          "confidence": 0.37
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.94
+        }
+      },
+      "usage": {
+        "input_tokens": 630,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.646e-05,
+    "latency_ms": 897.423
+  },
+  {
+    "case_id": "field-candidate-79fb81216f97fd3d4b97",
+    "component_id": "FV-01",
+    "input_sha256": "d1642441e04f0421013d0b10b6b176e7b3e030651dff080535481325f3d15d58",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "ae44449e45987c5476b95df204eedd4845bfdde4e319d237037c72287da61713"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.18,
+            "vegetation_fire": 0.8,
+            "other_fire": 0.01,
+            "retrospective": 0.01,
+            "prevention": 0.0
+          },
+          "confidence": 0.76
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.18,
+            "vegetation_fire": 0.8,
+            "other_fire": 0.01,
+            "retrospective": 0.01,
+            "prevention": 0.0
+          },
+          "confidence": 0.76
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 629,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.6418000000000004e-05,
+    "latency_ms": 865.534
+  },
+  {
+    "case_id": "aude-cp-15",
+    "component_id": "FV-02",
+    "input_sha256": "3f9cd182e32c9bc7fc8659c8e277b53a30f45a6873bac46aea8529f827d1132f",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "6ad4655213e37de2d070ddfaee54bbada26c7443eb70920b4ab79d789502556c"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.8200000000000001,
+            "insufficient": 0.0,
+            "firsthand": 0.03,
+            "advice": 0.15
+          },
+          "confidence": 0.77
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "third_party": 0.8200000000000001,
+            "insufficient": 0.0,
+            "firsthand": 0.03,
+            "advice": 0.15
+          },
+          "confidence": 0.77
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      },
+      "usage": {
+        "input_tokens": 1520,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 6.384e-05,
+    "latency_ms": 814.106
+  },
+  {
+    "case_id": "aude-cp-16",
+    "component_id": "FV-02",
+    "input_sha256": "4846a890020c267569dee7995e00259983170057e723d7473af536267ca09333",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "f0d33ad1b74956f86c6f873959ddf4a4489701f29a0b8d7839e60b1bc5976583"
+    },
+    "status": "error",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline"
+    },
+    "error_type": "ValueError",
+    "latency_ms": 912.402
+  },
+  {
+    "case_id": "aude-cp-17",
+    "component_id": "FV-02",
+    "input_sha256": "856fdc2540ff069c94332b99fbc8948aeefc161681d64ca39570d99edd2e62d4",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "a011773f392e8205e7b960ce30bbd71f2d26aee624c0300f9b8d258320b626ff"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "firsthand": 0.06,
+            "insufficient": 0.0,
+            "advice": 0.22,
+            "simulation": 0.0,
+            "third_party": 0.72
+          },
+          "confidence": 0.65
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "firsthand": 0.06,
+            "insufficient": 0.0,
+            "advice": 0.22,
+            "simulation": 0.0,
+            "third_party": 0.72
+          },
+          "confidence": 0.65
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.15
+        }
+      },
+      "usage": {
+        "input_tokens": 1526,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 6.4092e-05,
+    "latency_ms": 940.994
+  },
+  {
+    "case_id": "euronews-nocomment-20250807-review-frame-3",
+    "component_id": "FV-02",
+    "input_sha256": "d9d2a979d9ce55d7b8593fb8f58ce6e6637d0e04c3eb8a2569c376fe298560d3",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "202cff5c4c0759bf3a0e627d790b88f93ce3cb22c88fcacdd1f6f993fe223b5a"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "insufficient": 0.98,
+            "third_party": 0.02,
+            "advice": 0.0,
+            "firsthand": 0.0,
+            "simulation": 0.0
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "insufficient",
+          "probabilities": {
+            "insufficient": 0.98,
+            "third_party": 0.02,
+            "advice": 0.0,
+            "firsthand": 0.0,
+            "simulation": 0.0
+          },
+          "confidence": 0.97
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      },
+      "usage": {
+        "input_tokens": 585,
+        "output_tokens": 81
+      }
+    },
+    "cost_usd": 2.457e-05,
+    "latency_ms": 952.397
+  },
+  {
+    "case_id": "field-candidate-78762427f7db71d0deaa",
+    "component_id": "FV-02",
+    "input_sha256": "38fc3499c976ff3d1d57b737e1bcf8d11c8af43b1dad3a8587bff80362373837",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "ba9aad49424d49b0e3152ff54768c9979c3060ef8ffbfbeefba27483e19db63c"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.56
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "simulation": 0.0,
+            "advice": 0.0,
+            "insufficient": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.56
+        }
+      },
+      "usage": {
+        "input_tokens": 616,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.5872e-05,
+    "latency_ms": 819.564
+  },
+  {
+    "case_id": "field-candidate-79fb81216f97fd3d4b97",
+    "component_id": "FV-02",
+    "input_sha256": "f540441099949058d9f71fccba331dcbeb5747b0f9ee200f8922d17032cafecb",
+    "frozen_context": {
+      "corpus_sha256": "6578d59405bafd41c14ecc195a8aaa16991c2a464b49a79902ddbb15e57bc098",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "ae44449e45987c5476b95df204eedd4845bfdde4e319d237037c72287da61713"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.02,
+            "advice": 0.0,
+            "firsthand": 0.01,
+            "simulation": 0.0,
+            "third_party": 0.97
+          },
+          "confidence": 0.96
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.45
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.02,
+            "advice": 0.0,
+            "firsthand": 0.01,
+            "simulation": 0.0,
+            "third_party": 0.97
+          },
+          "confidence": 0.96
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.45
+        }
+      },
+      "usage": {
+        "input_tokens": 627,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.6334000000000002e-05,
+    "latency_ms": 960.046
+  },
+  {
+    "case_id": "aude-cp-19",
+    "component_id": "FV-01",
+    "input_sha256": "ac0585302baab1a951e24882075024bee96d0b145557be972799b28cef9ae8cd",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "fae2b1f1b856794e27f778c0402382c8664218460ffae3664f03addfa0a909ad"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.9,
+            "other_fire": 0.02,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.08
+          },
+          "confidence": 0.87
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 0.9,
+            "other_fire": 0.02,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.08
+          },
+          "confidence": 0.87
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.97
+        }
+      },
+      "usage": {
+        "input_tokens": 1281,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.3802000000000004e-05,
+    "latency_ms": 927.172
+  },
+  {
+    "case_id": "aude-cp-20",
+    "component_id": "FV-01",
+    "input_sha256": "d80a7bafdfcbf57428e40c99f1686da8d45ed47133761159cf5e0d7e146b573f",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "2e727a837c7580e3e6b451bc8785c41d07042af0fb33bbb1e8d97ced3d92e952"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.01,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.93,
+            "indeterminate": 0.06
+          },
+          "confidence": 0.9
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.01,
+            "prevention": 0.0,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.93,
+            "indeterminate": 0.06
+          },
+          "confidence": 0.9
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1335,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 5.6070000000000004e-05,
+    "latency_ms": 866.966
+  },
+  {
+    "case_id": "aude-cp-21",
+    "component_id": "FV-01",
+    "input_sha256": "8126e459ff31d5c3a43b77b63db6ae2eec69e3de80c7560de21f972254257c11",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e6680ee585a2a54d9b2e83734cf6f3c7964a101255f3eda3336119d44d06d72e"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "indeterminate": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 0.99,
+            "indeterminate": 0.01,
+            "retrospective": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 1901,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 7.9842e-05,
+    "latency_ms": 862.648
+  },
+  {
+    "case_id": "field-candidate-78263bbe39fadd8f2edc",
+    "component_id": "FV-01",
+    "input_sha256": "0439d74dfc3f05241275d57bc81cfb1851b55d489c9d8f7242fe495d113bcf05",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "739cf3d4bd666e1668a651c2614bb27a96c2fc094436ddab57202f917653d7e3"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "indeterminate": 0.01,
+            "retrospective": 0.0,
+            "vegetation_fire": 0.99,
+            "other_fire": 0.0,
+            "prevention": 0.0
+          },
+          "confidence": 0.98
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 616,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 2.5872e-05,
+    "latency_ms": 1115.321
+  },
+  {
+    "case_id": "aude-cp-19",
+    "component_id": "FV-02",
+    "input_sha256": "3bdcfd4a3a58819aaeca6f5023e67553f7fc3d374c9711b8b7d09b7f22afff6b",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "fae2b1f1b856794e27f778c0402382c8664218460ffae3664f03addfa0a909ad"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.21,
+            "firsthand": 0.04,
+            "simulation": 0.0,
+            "third_party": 0.75
+          },
+          "confidence": 0.69
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "advice": 0.21,
+            "firsthand": 0.04,
+            "simulation": 0.0,
+            "third_party": 0.75
+          },
+          "confidence": 0.69
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      },
+      "usage": {
+        "input_tokens": 1303,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.4726000000000004e-05,
+    "latency_ms": 1075.451
+  },
+  {
+    "case_id": "aude-cp-20",
+    "component_id": "FV-02",
+    "input_sha256": "2e980c6463c6c9b2edc029b5f6996c57d2971df1f1bab7a7d2efc2b13e45a590",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "2e727a837c7580e3e6b451bc8785c41d07042af0fb33bbb1e8d97ced3d92e952"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.23,
+            "insufficient": 0.0,
+            "firsthand": 0.05,
+            "third_party": 0.72,
+            "simulation": 0.0
+          },
+          "confidence": 0.64
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.23,
+            "insufficient": 0.0,
+            "firsthand": 0.05,
+            "third_party": 0.72,
+            "simulation": 0.0
+          },
+          "confidence": 0.64
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.17
+        }
+      },
+      "usage": {
+        "input_tokens": 1358,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 5.7036e-05,
+    "latency_ms": 807.571
+  },
+  {
+    "case_id": "aude-cp-21",
+    "component_id": "FV-02",
+    "input_sha256": "e609b4827261218df3c5cf667315bc7fa288f8f720dc2459c64e76c2f1b33224",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "e6680ee585a2a54d9b2e83734cf6f3c7964a101255f3eda3336119d44d06d72e"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "advice",
+          "probabilities": {
+            "firsthand": 0.04,
+            "advice": 0.51,
+            "third_party": 0.45,
+            "insufficient": 0.0,
+            "simulation": 0.0
+          },
+          "confidence": 0.38
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "advice",
+          "probabilities": {
+            "firsthand": 0.04,
+            "advice": 0.51,
+            "third_party": 0.45,
+            "insufficient": 0.0,
+            "simulation": 0.0
+          },
+          "confidence": 0.38
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.14
+        }
+      },
+      "usage": {
+        "input_tokens": 1926,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 8.089200000000001e-05,
+    "latency_ms": 1014.723
+  },
+  {
+    "case_id": "field-candidate-78263bbe39fadd8f2edc",
+    "component_id": "FV-02",
+    "input_sha256": "5cf69fdcfb6ace50d4341d5d18e8bae81045e07946e8f78720854ce882cb8a9b",
+    "frozen_context": {
+      "corpus_sha256": "c71faf02c389a97d8312962a9341daccd56ddb561d9cd455887efe7c03c1406b",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "739cf3d4bd666e1668a651c2614bb27a96c2fc094436ddab57202f917653d7e3"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.38
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "insufficient": 0.0,
+            "simulation": 0.0,
+            "third_party": 1.0,
+            "firsthand": 0.0,
+            "advice": 0.0
+          },
+          "confidence": 1.0
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.38
+        }
+      },
+      "usage": {
+        "input_tokens": 599,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 2.5158000000000002e-05,
+    "latency_ms": 762.516
+  },
+  {
+    "case_id": "aude-cp-22",
+    "component_id": "FV-01",
+    "input_sha256": "06db79a04c8097c6989f94ed69a9fa8cb3cd67aaaae4bb5fe9772a28aa0be7b9",
+    "frozen_context": {
+      "corpus_sha256": "c59f798c7226997230203309b2ade5aa81a3d108d7ec6767cf1464a8c61ecedc",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c09de79884feba2d745fecd3714835d9e17460f9711dea8022c0add2777d30b5"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 1.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "other_fire": 0.0,
+            "prevention": 0.0,
+            "vegetation_fire": 1.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 2181,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 9.160200000000001e-05,
+    "latency_ms": 869.952
+  },
+  {
+    "case_id": "aude-cp-23",
+    "component_id": "FV-01",
+    "input_sha256": "249a55fe5f7dabfb1f6f8d918bcfaf9d7244d458fdcc3ddb5d73875283a287ef",
+    "frozen_context": {
+      "corpus_sha256": "c59f798c7226997230203309b2ade5aa81a3d108d7ec6767cf1464a8c61ecedc",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "db4df12cd2c300fb4b2f0a641f5a35bd22576017639f846857e3b03cec456e93"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 1.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "topic": {
+          "type": "choice",
+          "choice": "vegetation_fire",
+          "probabilities": {
+            "vegetation_fire": 1.0,
+            "retrospective": 0.0,
+            "indeterminate": 0.0,
+            "prevention": 0.0,
+            "other_fire": 0.0
+          },
+          "confidence": 0.99
+        },
+        "useful_text": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 2138,
+        "output_tokens": 85
+      }
+    },
+    "cost_usd": 8.9796e-05,
+    "latency_ms": 816.858
+  },
+  {
+    "case_id": "aude-cp-22",
+    "component_id": "FV-02",
+    "input_sha256": "48156e37587323bda8a2947868cad231d938a9885507cf506c0d1446e259b927",
+    "frozen_context": {
+      "corpus_sha256": "c59f798c7226997230203309b2ade5aa81a3d108d7ec6767cf1464a8c61ecedc",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "c09de79884feba2d745fecd3714835d9e17460f9711dea8022c0add2777d30b5"
+    },
+    "status": "ok",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline",
+      "judgments": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.36,
+            "firsthand": 0.03,
+            "simulation": 0.0,
+            "insufficient": 0.0,
+            "third_party": 0.61
+          },
+          "confidence": 0.5
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "discourse": {
+          "type": "choice",
+          "choice": "third_party",
+          "probabilities": {
+            "advice": 0.36,
+            "firsthand": 0.03,
+            "simulation": 0.0,
+            "insufficient": 0.0,
+            "third_party": 0.61
+          },
+          "confidence": 0.5
+        },
+        "missing_context": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      },
+      "usage": {
+        "input_tokens": 2204,
+        "output_tokens": 79
+      }
+    },
+    "cost_usd": 9.256800000000001e-05,
+    "latency_ms": 988.244
+  },
+  {
+    "case_id": "aude-cp-23",
+    "component_id": "FV-02",
+    "input_sha256": "1dbfbbe5091650740fe112373c1ae08cafe36af48be09a5d2744ce18f0400fc1",
+    "frozen_context": {
+      "corpus_sha256": "c59f798c7226997230203309b2ade5aa81a3d108d7ec6767cf1464a8c61ecedc",
+      "vision_artifacts_sha256": "c0e1e09b71025f0cb5f60dca1464e7ffbdfbfaf95b2a5c7d4d987f0db85c2909",
+      "pipeline_config_sha256": "3d7900690ae9d5fabe38e16d4c712af379b45c310cec48fb8f58740e36ac219b",
+      "prior_state_sha256": "7d0ffbf3fb346cd2f234d669cf8522302f994f19f7a3331026af3695a131c9c8",
+      "arrival_batch_sha256": "db4df12cd2c300fb4b2f0a641f5a35bd22576017639f846857e3b03cec456e93"
+    },
+    "status": "error",
+    "binding_status": "export_adapter_only",
+    "publication_enabled": false,
+    "sidecar": {
+      "scope": "textual_advice_only",
+      "raw_observations_changed": false,
+      "vision_can_be_skipped": false,
+      "action": "keep_current_pipeline"
+    },
+    "error_type": "ValueError",
+    "latency_ms": 800.578
+  }
+]
