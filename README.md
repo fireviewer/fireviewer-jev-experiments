@@ -55,3 +55,5 @@ Les changements Bonsaï du pipeline standard sont dans `fireviewer-contracts`,
 la recette GPU appartiennent au dépôt privé `fireviewer-docker`. Voir
 `manifests/pipeline-commits.json` pour les révisions associées. Aucun code backend
 privé, média tiers, poids de modèle ni rapport utilisateur intégral n'est publié ici.
+
+Captures du parcours synthétique vérifié : [bureau](results/publication/jev-components-desktop.png) · [mobile](results/publication/jev-components-mobile.png). Aucun résultat de modèle n’est simulé dans ces captures.

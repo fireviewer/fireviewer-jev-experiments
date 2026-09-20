@@ -1,0 +1,74 @@
+[
+  {
+    "input_kind": "text",
+    "provider_status": "COMPLETED",
+    "execution_ms": 8339,
+    "scope": "component_integration_probe",
+    "accuracy_benchmark": false,
+    "full_pipeline_result": false,
+    "load_ms": 3896,
+    "stack_digest": "2c8927ef7c39a0544cfda02d22ae5197805d670fcbf1ba67f79a4a5b77c26da2",
+    "runtime": {
+      "model_id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "revision": "6ed5e12bf84b7a63069882c91dd9e9218647d17b",
+      "latency_ms": 3780.872,
+      "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 733,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 792
+      },
+      "gpu_memory": {
+        "device": "NVIDIA L4",
+        "first_used_mib": 276,
+        "interval_seconds": 1,
+        "peak_sampled_used_mib": 8112,
+        "samples": 8,
+        "scope": "device_0_total_usage_not_process_only",
+        "status": "SAMPLED",
+        "total_mib": 23034
+      },
+      "runtime": "PrismML llama.cpp prism-b10709-9a9394a",
+      "format": "PTQ1_0",
+      "cpu_validation": false
+    }
+  },
+  {
+    "input_kind": "image",
+    "provider_status": "COMPLETED",
+    "execution_ms": 10538,
+    "scope": "component_integration_probe",
+    "accuracy_benchmark": false,
+    "full_pipeline_result": false,
+    "load_ms": 3746.29,
+    "stack_digest": "2c8927ef7c39a0544cfda02d22ae5197805d670fcbf1ba67f79a4a5b77c26da2",
+    "runtime": {
+      "model_id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "revision": "6ed5e12bf84b7a63069882c91dd9e9218647d17b",
+      "latency_ms": 5358.866,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 1308,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1365
+      },
+      "gpu_memory": {
+        "device": "NVIDIA L4",
+        "first_used_mib": 276,
+        "interval_seconds": 1,
+        "peak_sampled_used_mib": 8166,
+        "samples": 10,
+        "scope": "device_0_total_usage_not_process_only",
+        "status": "SAMPLED",
+        "total_mib": 23034
+      },
+      "runtime": "PrismML llama.cpp prism-b10709-9a9394a",
+      "format": "PTQ1_0",
+      "cpu_validation": false
+    }
+  }
+]

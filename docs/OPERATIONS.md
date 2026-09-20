@@ -14,7 +14,7 @@ reste facturable. Les autres projets du compte sont hors du périmètre de cet a
    d'arrêt sur AWS et pour Runpod avant toute remise à un worker.
 2. Restaurer les sources/états sauvegardés et les reçus ; vérifier le manifeste figé.
    Identifier un périmètre/état initial admissible avant de qualifier la fusion quotidienne.
-3. Assembler les trois composants aux commits de `manifests/pipeline-commits.json` avec
+3. Assembler les six composants aux commits de `manifests/pipeline-commits.json` avec
    la recette Bonsaï du dépôt `fireviewer-docker`. Le Dockerfile publié après la pause
    doit encore être construit/qualifié comme nouvel artefact ; les tests de sources
    utilisent l'environnement r5 précédent, ils n'en font pas une image déjà déployée.

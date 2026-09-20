@@ -22,3 +22,12 @@ headless ; ce constat ne transforme pas `pip check` en PASS.
 Restent à exécuter : nouvelle image à partir des commits publiés, première journée
 entière sans erreur de modèle, raccordement des états initiaux et chaîne site/backend,
 comparaisons Jev post-vision, annotations indépendantes et mesure qualitative.
+
+## Paquets entre dépôts
+
+Le nouveau contrat est publié en source en version 0.1.2. Les métadonnées de
+géolocalisation, collecte et supervision ont été alignées sur cette version, sans
+modifier leurs règles métier. Leurs commits, ceux du runtime et de l'orchestrateur
+sont verrouillés par `ci.json` et le manifeste global. La construction CPU applique
+les mêmes hashes de wheels que les tests ; elle ne réutilise pas les anciennes
+wheels incompatibles avec ce contrat. Aucune release existante n'est remplacée.

@@ -1,6 +1,10 @@
 {
   "fireviewer-contracts": "d2be4ba408812286a30c9c6207d29ef00bd25ced",
-  "fireviewer-vision-runtime": "60756762d6c0bb6a6be9aa76ebdeec168bb25d56",
-  "fireviewer-orchestrator": "3ff75b46d637ce227de2305de6598d0559846d74",
-  "fireviewer-docker": "573d94a7313e88284c85eb6999059b3ec4b65175"
+  "fireviewer-geolocation": "7701ad90de311ddcead1483063b42d26607d8272",
+  "fireviewer-vision-runtime": "9238c4cd9dd57e2addacb12b582ae10194887e59",
+  "fireviewer-evidence-ingestion": "1ba90928622bd771bf00a5cecbc154d4955cd36f",
+  "fireviewer-evidence-supervisor": "06b8c06cb8a36a73f072971940f98cf21433e9af",
+  "fireviewer-orchestrator": "221adfaa6a997226cdf7ded457c9ea4853f5bfe0",
+  "fireviewer-docker": "57a406545dcb745028aa90ddecdf60d1349a6196",
+  "Fireviewer_doc": "13009818366cf07bbc11cd80cd4379ee1c31126a"
 }
